@@ -1,0 +1,29 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+	margin: 0;
+}
+
+ul, ol, dl {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.palette-board {
+	height: 100vh;
+	display: grid;
+}
+
+.palette {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.color-picker {
+    height: 4em;
+    width: 4em;
+}
